@@ -1,0 +1,160 @@
+\documentclass{ufscar}
+\usepackage[table]{xcolor}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section{Descrição da Organização}
+
+A \textbf{Up.p} é uma empresa financeira com foco em tecnologia (\textit{fintech}). Fundada em 2019, por experientes profissionais do mercado financeiro com passagem por grandes bancos e o objetivo de mudar o mercado de empréstimos pessoais por meio de soluções tecnológicas e uma abordagem mais simples e confiável para todos envolvidos no processo.%mudar pra uma palavra mais elegante
+
+Possuindo por volta de 30 colaboradores e sócios, sendo assim considerada uma empresa de pequeno porte, a Up.p possui um escritório em São Paulo. A empresa adota um modelo de trabalho flexível, com colaboradores em sua maioria trabalhando presencialmente  e outros colaboradores espalhados por todo Brasil por meio de regime \textit{home office}.
+
+%mudança de empresa simples de crédito pra SEP
+Em abril de 2018, o Banco Central do Brasil publicou uma resolução que permite a atuação das Sociedades de Empréstimo entre Pessoas (SEP), autorizando essas instituições a atuarem na intermediação de empréstimos entre pessoas e empresas. em fevereiro de 2020 a Up.p foi aprovada pelo banco central para atuar como SEP, expandindo ainda mais suas possibilidades de negócios e serviços.
+
+% Aplicativo e Estado atual do modelo de negócios
+Atualmente a empresa trabalha exclusivamente com empréstimos pessoais de casos escolhidos manualmente baseados em métricas próprias para estabelecer uma base de clientes e financiar um crescimento sustentável da \textit{startup} ao mesmo tempo que esta se preparando para o lançamento do aplicativo e plataforma, criando uma infraestrutura e produtos aperfeiçoados para melhor atender as expectativas dos clientes que estão por vir.
+
+A empresa considera que como principal diferencial para seu sucesso será o uso de inteligencia artificial principalmente aprendizado de máquina para selecionar e classificar tomadores e credores no processo de empréstimo, tornando a relação mais clara e precisa para ambos. Também  o uso intensivo de tecnologias confiáveis e processos com alto padrão de qualidade para garantir disponibilidade e usabilidade para todos. 
+
+%organização
+A empresa faz seu melhor pra aproveitar todo potencial que a estrutura de uma \textit{startup} pode oferecer estabelecendo uma estrutura planificada dentro do possível, onde todas ideias são discutidas independente de quem as deu ao mesmo tempo que não há demora ao mudar a direção de um projeto quando é encontrada uma solução melhor, mudança que demoraria meses pra ser iniciada em uma grande empresa, acontece em questão de horas se não minutos, um tipo de cultura que pode ter um preço muito alto se a comunicação não for clara, aberta e eficiente, algo que a empresa trabalha constantemente para melhorar em todos níveis.
+
+Ainda fruto da cultura de \textit{startup} é importante apontar que a empresa tenta usar os colaboradores de forma multidisciplinar respeitando as habilidade individuais de cada um ao mesmo tempo que incentiva-os a expandi-las. Resultado disso é que não há divisões muito claras entre algumas áreas já que a flexibilidade é peça chave na agilidade tão priorizada pela empresa.
+
+Duas macro áreas distinguíveis são a financeira e tecnologia, já que os colaboradores de ambas tem \textit{hard-skills} tão diferentes. Mas mesmo pessoas das duas áreas constantemente trabalham juntas em equipes multidisciplinares nos projetos cada um colaborando com suas habilidades e especializações.
+
+\section{Descrição do ambiente tecnológico}
+O principal meio de comunicação entre colaboradores são reuniões rápidas entre os participantes do projeto, muitas espontâneas, com o advento da pandemia as plataforma \textit{Slack} e \textit{Asana} que já eram utilizadas de forma extensiva, se tornaram o principal meio de comunicação junto de reuniões diárias no serviço \textit{Google Hangounts}.
+
+O \textit{Asana} é usado principalmente pra organizar as ativades em um quadro de tarefas parecido com um \textit{Kanbam}, entre colaboradores e projetos. Grande parte dessa organização é delegada a os próprios responsáveis pelas tarefas, permitindo customização e adaptação pra melhor servir o objetivo de facilitar a visualização do colaborador e tornar as atividades mais produtivas e bem documentadas. 
+
+No desenvolvimento há ferramentas que são constantemente usadas independentemente dos projetos, como o \textit{host} de repositórios \textit{Bitbucket}. Mas em sua grande maioria os projetos usam tecnologias que são decididas no inicio de cada projeto, desde coisas fundamentais como linguagens de programação a tipo de banco de dados, a coisas que são consideradas preferencias pessoais de cada colaborador como sistemas operacionais e editores de texto. Esse tipo de abordagem tem como principal objetivo aproveitar com eficiência as vantagens que cada cada ferramenta pode oferecer pra cada projeto, ao mesmo tempo que expande o conhecimento dos colaboradores em dadas tecnologias. entre as tecnologias usadas por mim em projetos as mais usadas foram \textit{Python} e \textit{Linux}.
+
+%----Oque eu fiz
+\section{Relatório das atividades desenvolvidas pelo aluno}
+%------Pesquisa sobre serviços
+Minha primeira Atividade na empresa foi realizar uma pesquisa sobre prós e contras de tecnologias para serem utilizadas, nos novos serviços de registro de movimentação financeira que seriam implementados. Ao fazer minha pesquisa obtive conhecimentos mesmo em ferramentas que não chegamos a usar no projeto, uma vez que era de vital importância que que fizéssemos escolhas corretas nessa fase do projeto.
+
+As classes comparadas foram, \textit{frameworks} para desenvolvimento de \textit{Access Point Interfaces}(APIs), serviço de hospedagem, serviço de \textit{Continuous improvement/Countinuos deployment}(CI/CD) e sistema de gerenciamento de banco de dados.
+
+Dos diversos \textit{frameworks} considerados como \textit{Ruby on Rails}, \textit{PHP Synphony}, \textit{Python Flask}, \textit{JS Node express} e \textit{Python Django Rest}, optamos pelo ultimo, uma vez que nosso desenvolvedor mais experiente tinha um domínio excepcional nessa tecnologia ao mesmo tempo que ela atendia todos os nosso critérios de segurança, velocidade e consumo de recursos confortavelmente.
+
+Sobre serviços de hospedagem, tive dificuldade em encontrar uma resposta satisfatória como a do caso dos \textit{frameworks}, por dois motivos. O primeiro a necessidade de resiliência, algo que iriamos atingir por meio da utilização das ferramentas \textit{Docker} e \textit{Kubernetes} e precisavamos entender a relação dessas ferramentas com os \textit{Hosts}. Segundo modo como os serviços de hospedagem precificam seus produtos acaba por ser nebuloso e muitas vezes difícil de comparar, por exemplo a \textit{AWS - Amazon Web Services} disponibiliza os seus preços de acordo com uso de máquinas padronizadas que estão em outro catalogo, e na precificação esta apenas uma sigla pra cada uma delas. Em alguns casos há flexibilidade dos recursos, ou seja um regime \textit{On-Demand}, mas não deixam exatamente claro quanto á mais você ira pagar, e de que forma isso sera cobrado. Devido a essas dificuldade optamos pro desenvolver os produtos em servidores da \textit{Digital Ocean} e mais tarde de acordo com nossa necessidades mudar pra outra nuvem.
+
+Ao tratar de serviços de CI/CD, nós chegamos a conclusão que seria melhor esperar e testar esses serviços com calma, pois eles seriam muito importantes, mas sua implantação poderia ser postergada para uma fase de consolidação do projeto, essa decisão também foi tomada visto que não havia ninguém na empresa com conhecimentos sobre ferramentas do tipo suficientes para nos dar segurança de que essa estaríamos tomando a melhor decisão no momento.
+
+Quanto a sistema de gerenciamento de banco de dados, optamos por um relacional, e dai partimos pra comparar qual tinha melhor integração com o \textit{framework} escolhido após pesquisar decidimos por PostgreSQL.
+
+%---Kubernetes e Docker
+Outra atividade importante a qual foi dedicada uma parte significativa do meu tempo foi aprender e aplicar e manter contêineres e orquestrador de contêineres nos serviços contidos no sistema de registro de transações financeiras. Aplicação dessas tecnologias vinha da necessidade de atingir tanto as expectativas dos clientes quanto as exigências do Banco Central para podermos funcionar como uma SEP, quanto a disponibilidade e confiabilidade da plataforma.
+
+Meus primeiros dias nessa tarefa foram pesquisando e praticando com exemplos afim de absorver conhecimento e me sentir confortável o suficiente para aplicar essas tecnologias, nos nossos serviços. Após algumas semanas já havia conseguido aplicar com sucesso no nosso serviço mais simples, o próximo passo foi aplicar em serviços mais complexos e manter a integração do sistema como um todo. Houveram varias dificuldades nessa fase mas todas foram sendo superadas com ajuda de colegas e pesquisa, outra dificuldade foi não termos uma clareza sobre qual seria exatamente a situação final na implantação dessas tecnologias, oque por uma lado nos forçou a trocar de direção varias vezes por outro lado acredito que o produto final foi um resultado acima das nossas expectativas.
+
+Um exemplo de serviço nosso organizado por mim na seguinte estrutura: \textit{Django Rest framework} rodando num servidor \textit{Gunicorn}, em contidos em um contêiner, uma banco de dados PostgreSQL em outro contêiner para esse serviço, ambos no mesmo pode que por sua vez estavam usando \textit{Nginx} como \textit{proxy} reverso que também estava contido em um contêiner, toda essa estrutura é organizada a partir da aplicação do \textit{Docker Compose}. Esta estrutura possibilita o \textit{deploy} em qualquer maquina que tenha \textit{Docker} instalado sem nenhuma configuração adicional. também foram criados um \textit{script} para facilitar esse \textit{deploy} para apenas uma única linha de comando e uma versão desse serviço usando \textit{Kubernetes} que sera usada  numa versão final desse serviço com redundância e resiliência.
+
+Após as primeiras interações e uma ideia melhor de onde queríamos chegar, consegui chegar a um resultado intermediário satisfatório para o momento da empresa e ao mesmo tempo preparar protótipos e direcionamentos de como seriam as próximas fases para a implementação ideal de estado final do serviço.
+
+%---Linux  GitLab 130
+Outra parte importante da minha experiência na Up.p foi configurações e uso de sistemas operacionais baseados em Linux, tanto o sistema em que eu desenvolvi meus trabalhos quanto o sistema no qual os nossos servidores. Apesar de uma experiência prévia com Linux, e domínio pra trabalhar confortavelmente com o SO, foi na Up.p que eu tive a possibilidade de explorar com muito mais profundidade e também ser ensinado sobre o verdadeiro potencial da ferramenta.
+
+Uma das minhas atividades foram cuidar da criptografia que seria usada no sistema, ou seja implementar um serviço de criptografia e ao mesmo tempo usar outro serviço para emitir o certificado, para que todas nossas comunicações fossem \textit{https}. Apesar de algumas dificuldades nesse implementação, principalmente no caso de uso especifico com \textit{Docker} e \textit{Docker Compose}. Onde o serviço que usávamos para emitir o certificado também era mais um serviço no nosso \textit{cluster}, situação que gerava alguns conflitos em como um site é autenticado.
+
+Também fui responsável por adaptar os \textit{scripts} que usávamos para \textit{deploy} de em máquinas remotas, para que eles usassem toda a \textit{stack} que eu descrevi acima, onde tive que aprender vários comandos e serviços Linux, assim como certas particularidades do sistema operacional. Como o \textit{deploy} é remoto também tive a oportunidade de usar em uma situação real  \textit{ssh} algo que eu tinha um conhecimento muito básico e apenas teórico. 
+
+Eu também fui pioneiro na empresa no uso e implementação de sistemas de CI/CD, que explicando brevemente, são sistemas que ajudam no \textit{deploy} e manutenção de uma aplicação, geralmente são compostos por pipelines, onde cada fase faz algo especifico e automatizado, assim salvando tempo de desenvolvedores.
+
+Apesar de sistemas de CI/CD serem muito práticos e desejáveis em produções modernas de software, eu aprendi que são muito difíceis de se implementar. Em parte por causa da total falta de experiência com essas tecnologias, parte porque nessa parte não havia ninguém na empresa que tivesse mais conhecimento que eu e pudesse me ajudar. Mas acredito que apesar das adversidades no final o resultado foi satisfatório.
+
+Escolhemos o serviço \textit{Gitlab}, por ele ter um período de uso gratuito onde poderíamos fazer experimentos e compreender melhor a tecnologia. Outra vantagem importante do serviço é que ele oferece um painel muito interativo e claro assim como total integração com outros serviços que utilizávamos como git para versionamento.
+
+Com o objetivo de automatizar todo o \textit{deploy} das nossas aplicações, eu preparei todo o pipeline, que consistia em, uma vez que um código fosse adicionado a \textit{branch master} do nosso repositório, esse código seria, transformado em contêineres, teria seu \texit{deploy} no ambiente de testes passaria por testes unitários e de integração e depois seria colocado em produção.
+
+A primeira parte, exigiu um pouco de adaptabilidade, uma vez que nossos serviços usavam repositórios privados em outro serviço chamado \textit{Bitbucket}, mas com algum esforço e ajustes sobre as permissões foi possível a criação de um repositório \textit{Gitlab}, que espelharia os repositórios no \textit{Bitbucket}, assim estávamos prontos pra próxima fase.
+
+Cada vez que um algo é adicionado na \textit{master}, tínhamos que construir um contêiner, apesar de parecer fácil isso tinha diversas implicações, um delas a de que o \textit{Gitlab} faz isso automaticamente, mas havia o problema de fazer isso numa maquina de terceiros, algo que não desejávamos, \textit{runners} são máquinas virtuais que o \textit{Gitlab} cria para fazer toda a execução do pipeline em uma máquina, a solução que eu encontrei foi configurar \textit{runners} próprios que só funcionariam nas nossas máquinas.
+
+Sobre testes e \textit{deploys} as coisas começaram ficar realmente complicadas, pois era nescessário que um serviço usando SSH para se comunicar com uma máquina virtual, fosse capaz de acessar a maquina real e substituir arquivos de forma consistente e segura, e todo esse processo devia ser automatizado e rápido. Infelizmente houveram outras prioridades na empresa eu não pude concluir esse projeto.
+
+A parte que mais dediquei meu tempo, foi a desenvolvimento de alguns micro serviços essenciais para a empresa, assim como a melhoria de outro serviço.
+
+Esses serviços eram desenvolvidos em \textit{python} em conjunto com \texit{Django Rest Framework} e banco de dados relacional. Esses serviços eram projetados em forma de APIs, para que outros serviços internos e externos pudessem utilizar seus dados, assim como receber dados e processa-los.
+
+Grande parte da complexidade desse sistema vinha da necessidade de que o sistema suportasse uma grande carga de acessos simultâneos, mas os dados continuassem confiáveis e disponíveis. Parte desse problemas foi resolvido com domínio de praticas de sistemas distribuídos como semáforos, e área critica.
+
+Os serviços no inicio foram projetados para ser atômicos, ou seja realizar o mínimo possível mas de forma consistente, mas conforme entendemos melhor nosso caso de uso. mesmo o mais simples dos serviços teve muito adicionado em prol da necessidade de atender melhor nossas verdadeiras demandas. Mas graças a inúmeras reuniões e uma comunicação clara, conseguimos chegar em um estado em que nossa ideia teórica, funcionava muito bem no mundo real e era robusta o suficiente para atingir nossos padrões.
+
+Também fui responsável por desenvolver vários \texit{end-points} novos, responsáveis pelas mais variadas atividades, algumas complexas mas facilitadas pelo \texit{framework} utilizado, outras totalmente customizadas, trazendo um novo gral de dificuldade, após aprender a usar o \texit{framework} agora era necessário aprender quando não utiliza-lo, tive dificuldades claras com isso, principalmente com os casos que relacionavam múltiplos serviços. Mas acredito que no final consegue desenvolver um trabalho sólido, que com ajustes do meu superior, se tornou uma peça de software que eu tenho muito orgulho de ter contribuído. Nesse contexto também foi requerido que eu entendesse alguns nuances do STR (Sistema de Transferências e Recebimentos) do Bacen, com um pouco de esforço consegui entender o necessário e implementar as funções pedidas.
+
+Outra parte na qual eu contribui muito na empresa foi na parte de testes, grande parte dos testes unitários realizados foram escritos por mim, eu também fui responsável por versões atualizadas incluindo novos \texit{end-points} de testes de integração, também fui responsável por adaptar esses testes para o contexto de CI/CD.
+
+
+%--94
+\section{Reflexão por parte do aluno sobre as principais contribuições ao projeto}
+
+Acredito que minhas contribuições somaram muito para o projeto, além das contribuições descritas na seção anterior, acredito que também tive um papel muito importante na tomada de decisões da empresa em relação a aplicações e modelos de negócios, assim como tecnologias a serem utilizadas. 
+
+Também acredito que contribui muito com outros outros colegas de trabalho ao ajuda-los com tarefas, ensinando sobre tecnologias que eu tinha mais domínio, ou discutindo soluções de problemas que eles estavam enfrentando no em diferente áreas. 
+
+Minhas contribuições nas parte de \textit{DevOps} foram um primeiros passos importantes na empresa que busca uma cultura de excelência. acredito que minhas contribuições assim como minhas pesquisas contribuíram muito pro entendimento das tecnologias, assim como para repensar outras praticas. também tive muito cuidado em documentar e reportar tudo oque fiz nessa área, assim caso algum outro colaborador precise desenvolver algo já haverá um alguma orientação de como proceder, assim como oque decidimos ser boas práticas para nosso caso de uso. 
+
+Outra parte importante das minhas contribuições, foram quanto discussão de regras de negócios, sempre tentei participar das reuniões nessa área de forma ativa contribuindo com minha visão técnica especializada em software e áreas correlatas para minhas contrapartes que tinha uma visão mais especializada de gestão e negócio, acredito que esse intercambio foi sempre benéfico para ambas as partes e conseguimos resolver problemas complexos com a qualidade que buscávamos.
+
+Apesar da pouca experiência profissional, acredito que minha proatividade e a solida base que recebi da universidade, fizeram com que me destacasse e superasse as expectativas que a empresa e meus superiores tinham ao iniciarmos o estágio. Os \textit{feedbacks} positivos e conversas que tive com meus colegas de trabalho refletiram isso. Por fim, a pandemia e toda a situação
+subsequente da mesma, fez com que eu não tivesse o mesmo rendimento e a empresa também teve que se adaptar a nova e dura realidade econômica. Foi decidido terminar meu contrato, acredito que tinha muito mais para contribuir, mas acredito que a decisão foi pontual e bem justificada.
+
+\section{Relação dos principais conhecimentos obtidos nas disciplinas do curso e que foram de importância para o estágio}
+
+Eu posso dizer com segurança que fiz uso da grande maioria, se não de todas as matérias que foram ofertadas no curso.
+
+As disciplinas de \textbf{Algoritmos Programação 1 e 2}, \textbf{Estrutura de Dados 1 e 2}, \textbf{Programação Orientada a objetos}. foram essenciais para construir minhas bases como desenvolvedor de software, acredito que mesmo lidando com tecnologias que nunca foram apresentadas no curso, as bases datas por essas disciplinas foram suficientes para que eu tivesse segurança e independência para aprender tecnologias novas com agilidade e ser capaz de identificar as particularidades de cada uma e como elas se relacionam com os conceitos que eu já conhecia. 
+
+Enquanto que as disciplinas acima são responsáveis pela minha base, \textbf{Algoritmos e Complexidade}, \textbf{Matemática Discreta}, \textbf{Sistemas distribuídos} e \textbf{Paradigmas de Linguagens de Programação}. São conhecimentos que me tornaram alguém diferenciado na hora de desenvolver software dentro da empresa, capaz de discutir tópicos avançados e apresentar soluções satisfatórias para problemas complexos.
+
+Todas as disciplinas na linha de engenharia de software, assim como \textbc{Interface Humano-Computador}, foram extremamente importante em discussões e planejamento, conhecimentos adquiridos nessas disciplinas tornaram possíveis transmitir e demonstrar soluções técnicas com clareza, assim como ser capaz de incorporar soluções de negócio nos projetos de forma correta. 
+
+\textbf{Inteligência Artificial} e todas as disciplinas do departamento de Matemática também tiveram um papel importante, para que eu eu pudesse me comunicar com clareza com a equipe de Ciência de Dados e discutir soluções sem muitas explicações adicionais.
+
+As disciplinas de \textbf{Banco de Dados}, tiveram um papel importante, uma vez que o mesmo usamos exatamente a mesma tecnologia que a ensinada nas aulas práticas. E também porque banco de dados e seus conceitos eram uma peça fundamental do projeto como um todo.
+
+Outras disciplinas que tiveram papel central pra mim foram as de \textbf{Redes de Computadores}, os conceitos de da camada de aplicação apresentados foram amplamente utilizados graças a arquitetura de micro serviços. 
+
+Disciplinas como \textbf{Desenvolvimento WEB}, \textbf{Aplicações para Sustentabilidade} e \textbf{Projeto e Desenvolvimento de Software} foram muito importantes não só pelos conhecimentos técnicos adquiridos, mas também porque foram oportunidades de desenvolver software de uma forma muito próxima a que se é desenvolvido no mundo real, oque com certeza despertou meu interesse por esse setor e me fez aprender muitas outras tecnologias no meu tempo fora das salas de aula.
+
+Atividade acadêmicas extracurriculares também foram de grande contribuição para o meu período no estágio. As duas as quais mais me dediquei que foram \textbf{Programação Competitiva} e \textbf{Secot} além de me ensinarem muito sobre tecnologia também me ajudaram com as chamadas \textit{soft skills} como trabalho em equipe, comunicação e proatividade.
+
+
+\section{Reflexão sobre as dificuldades enfrentadas pelo estagiário na organização}
+
+Uma das minhas principais dificuldades foram a de adaptação as novas rotinas que o estágio envolvia, também rotinas novas por conta da mudança de cidade.
+
+Também tive muito dificuldade inicialmente com a ideia de sempre estar trocando de tecnologia ou tarefa, de acordo com as prioridades da empresa, apesar de estar acostumado a cursar múltiplas matérias ao mesmo tempo na universidade. As tarefas no estágio muitas vezes envolviam conhecimentos muito especializados e que só eram utilizados poucas, oque me deixava com a sensação de não estar construindo nada de verdade. Mas com o tempo me adaptei a essa nova realidade e consegui entender as causas e benefícios desse tipo de abordagem.
+
+Por ter tido uma base muito forte de engenharia de software, eu também tinha muita tendencia a resolver as coisas de um jeito mais robusto, estabelecendo processos, fazendo documentações completas e discutindo amplamente soluções. Ainda considero isso uma característica muito boa minha, mas tive que aprender que no mundo real, as coisas podem acontecer muito rápido, as vezes temos que priorizar a entrega, sobre o processo, mesmo focando em qualidade, somos forçados a fazer escolhas, entre coisas que consideramos fundamentais. Demorei muito tempo para me acostumar com essa ideia, mas por fim entendi, que o as coisas são muito mais caóticas do que gostaríamos.
+
+Outra dificuldade foi a de abandonar ideias, por muitas vezes algo que tínhamos decidido como sendo melhor solução, se mostrava ruim na prática, ou a melhor solução era custosa demais, seja em tempo ou dinheiro. E com recursos disponíveis eramos obrigados a abandonar essa solução e buscar outra que se adequasse melhor a nossa realidade. Por muitas vezes foi frustrante ouvir que algo que eu tinha trabalhado dias ou até semanas, não seria usado ou seria implementado de maneira totalmente diferente da que eu tinha concebido, e por isso eu precisava voltar a desenvolver dos estágios iniciais.
+
+Também a integração com sistemas mais antigos como o STR, desenvolver coisas baseada nessa integração em grande parte do tempo é ler documentação e implementar regras baseadas nela, algo que eu particularmente não gosto de fazer, mas era necessário, e foi importante para aprender mais sobre uma parte tão vital da empresa.
+
+A outra barreira muito excepcional, a pandemia mudou muita coisa, seja na empresa, ou na minha vida pessoal. e não tive muito tempo nem espaço para poder me adaptar, assim como pouco direcionamento, oque gerou um pequeno desgaste, que foi sendo superado lentamente durante os meses de \textit{home-office}.
+
+A ultima dificuldade que gostaria de citar foi a falta de um \textit{feedback} formal, algo que documentasse claramente se eu estava indo bem ou mal e em que áreas em precisava melhorar, cito isso como uma dificuldade minha pois, acredito que isso é uma coisa que vária de acordo com o individuo, sempre foram ditos comentário positivos sobre mim e minhas entregas, mas eu sentia muita necessidade de algo formal e acho que foi uma das coisas que eu precisaria de mais tempo para me acostumar. 
+
+\section{Relação de tópicos que poderiam ser estudados no curso de Computação e que foram necessários no estágio}
+
+A grande maioria dos tópicos vistos no estágio, eram alguma extensão de tópicos já vistos na universidade, por isso considero que a universidade faz um trabalho excelente fornecendo embasamento. Mas há alguns que poderiam ser mais explorados, principalmente como matérias optativas, os que eu considero nessa situação são.
+
+Contêineres, e conteinerização em geral, eu cursei uma disciplina Tópicos avançados em sistemas distribuídos, que tratava sobre virtualização, que é algo correlato a contêineres, mas mesmo nessa disciplina o foco era muito mais em outros aspectos.
+
+Linguagens funcionais, diversas vezes surgiu o assunto de linguagens funcionais durante o estágio, um assunto interessantíssimo e em alta no mercado, mas não pude contribuir muito para a conversa pois só sabia o básico que aprendi em uma única aula da disciplina de Paradigmas de Linguagens de Programação.
+
+Programação na camada de aplicação da rede, enquanto que a disciplina, de Laboratório de Redes faz um bom trabalho em dar um panorama geral sobre todas as camadas de rede, um pouco mais de foco na camada 5(aplicação) seria muito útil pra mim, e acredito que pra qualquer um que queria seguir na área de back-end.
+
+Tecnologias mais modernas na disciplina de WEB, acredito que os conceitos teóricos são muito úteis, mas geralmente a linguagem que os alunos fazem o trabalho é decidida pelo professor, oque pode acabar levando a uma prática muito distante do que esta sendo visto no mercado.
+
+
+Um importante conceito muito presente no dia-a-dia na empresa que poderia receber mais atenção ao longo do curso é de sistemas de controle de versão. Apesar de ser algo endêmico de varias disciplinas pois estas exigem projetos longos com muita gente colaborando, acredito que um ensino mais formal seria interessante também.
+
+
+\end{document}
